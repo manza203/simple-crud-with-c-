@@ -19,7 +19,7 @@ void addDataMHS(fstream &file);
 int main() {
     // loginOption();
     fstream file;
-    mahasiswa mhs;
+    mahasiswa mhs; //inisialisasi struct
 
     checkDatabase(file);
     int pilihan;
