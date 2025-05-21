@@ -18,7 +18,7 @@ void addDataMHS(fstream &file);
 
 int main() {
     // loginOption();
-    fstream file;
+    fstream file; //inisialisasi untuk menyimpan menggunakan fstream
     mahasiswa mhs; //inisialisasi struct
 
     checkDatabase(file);
